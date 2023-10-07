@@ -1,3 +1,73 @@
 div {
-    max-width:  1600px; ;
+    max-width:  1600px;
+    margin: 0 auto;
+}
+#content {
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color:#6D98BA;
+}
+header {
+    background-color:#FFB703 ;
+}
+nav a {
+    color: #023047;
+}
+nav a:hover {
+    background-color:#023047;
+    color: #FFFF;
+}
+.book, .join {
+    background-color:#023047;
+    color: #FFFF;
+}
+.book:hover, .join:hover {
+    background-color:#FFB703 ;
+    color: #023047;
+}
+#background {
+    background-color:#023047 ;
+}
+.msg {
+    background-color:#FFFF ;
+}
+footer {
+    background-color:#023047 ;
+}
+.home-title {
+    color: #023047;
+}
+h4 {
+    color: #023047;
+}
+.msg h2 {
+    color: #023047;
+}
+.msg p {
+    color: #6D98BA;
+}
+footer {
+    color: #FFFF;
+}
+footer a {
+    color: #FFFF;
+}
+footer a:hover {
+    color: #6D98BA;
 }
