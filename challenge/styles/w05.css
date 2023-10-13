@@ -1,11 +1,20 @@
-#circles-img {
-    width: 5px;
-    border: 20px steelblue;
-}
 .circles {
+    width: 100%;
+}
+.desk, .graphic, .person {
     border-radius: 50%;
+    border: 20px solid rgb(69, 69, 69);
+    max-width: 33.33%;
+}
+body {
+    background-color: grey;
+}
+.footer {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 .footer img {
-    border-radius: 50%;
-    border: 20px black;
+    max-width: 33.33%;
 }
+
