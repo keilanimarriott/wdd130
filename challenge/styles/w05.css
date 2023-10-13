@@ -1,0 +1,11 @@
+#circles-img {
+    width: 5px;
+    border: 20px steelblue;
+}
+.circles {
+    border-radius: 50%;
+}
+.footer img {
+    border-radius: 50%;
+    border: 20px black;
+}
