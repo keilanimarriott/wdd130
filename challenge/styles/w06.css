@@ -1,0 +1,11 @@
+div {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 200px 200px 200px 200px;
+    border: 10px solid black;
+}
+.grid_container {
+    font-family: Georgia;
+    font-size: 50px;
+}
+
