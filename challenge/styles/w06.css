@@ -1,11 +1,32 @@
 div {
     display: grid;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: 800px 800px 800px;
     grid-template-rows: 200px 200px 200px 200px;
     border: 10px solid black;
+
 }
 .grid_container {
     font-family: Georgia;
     font-size: 50px;
+    border: 10px solid black;
+}
+img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: 10px solid blue;
+}
+h2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    border: 10px solid red;
+}
+img {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    border: 10px solid black;
 }
 
