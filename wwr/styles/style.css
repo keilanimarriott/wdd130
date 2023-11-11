@@ -229,4 +229,13 @@ footer .social img {
         margin-top: 25px;
     }
 }
-  
+/*Page 2 Rivers*/
+.rivers-grid {
+    display: grid;
+}
+.rivers-grid h4{
+    color: black;
+}
+.rivers-grid p {
+    text-align: left;
+}
