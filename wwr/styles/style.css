@@ -230,74 +230,125 @@ footer .social img {
     }
 }
 /*Page 2 Rivers*/
-/*.rivers-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-}
-.rivers-grid {
-    padding: 20px;
-}
-#rivers-hero {
-    grid-column: 0/9;
-}
-#rivers-hero img {
-    width: 100%;
-}
-.rivers-grid h4{
-    color: black;
-}
-.rivers-grid p {
-    text-align: left;
-}
-.salmon-river img, h2{
-    grid-column: 0/9;
-    grid-row: 2/4;
-}*/
 body {
     margin: 0;
     padding: 0;
-  }
-  
-  #content {
-    max-width: 1200px;
+}
+#content {
+    max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
-  }
-.rivers-grid {
+}
+#rivers-grid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
     gap: 20px;
 }
-.grid-item {
-    width: 100%;
-}
-#rivers-hero img {
-    width: 100%;
+#rivers-hero {
     height: auto;
-    display: block;
+    grid-column: 1/4;
 }
-.hero-img {
-    grid-column: 0/9;
+#river-hero {
+    width: 100%;
 }
 .rivers-msg {
-
+    font-family: Rock Salt;
+    color: white;
+    grid-column: 2/3;
+    text-align: center;
+    font-size: 50px;
 }
-
-#main-grid {
+.main-grid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1000px 1000px 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
+    gap: 2em 2.5em;
+    background-color: #0C3C62;
+    border-radius: 10px;
 }
-
-.salmon-text {
-    grid-column: 4/9;
+.salmon-river {
+    grid-column: 2/3;
+    text-align: left;
+}
+.salmon-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
 }
 .desolation {
-    grid-column: 2/8;
+    grid-column: 1/2;
     grid-row: 2/3;
+    text-align: left;
+}
+.desolation-image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
 }
 .arizona {
-    grid-column: 2/8;
+    grid-column: 2/3;
     grid-row: 3/4;
+    text-align: left;
+}
+.arizona-image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+}
+.main-grid h2, h3, h4 {
+    color: white;
+    font-family: Rock Salt;
+    font-size: 30px;
+}
+.main-grid p {
+    color: white;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2em 2.5em;
+    margin-top: 30px;
+}
+.booking p, .highlights p {
+    color: black;
+}
+.sheep-image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.scorpion-image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.booking {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.highlights {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.bottom h5, h6, h7 {
+    font-size: 30px;
+    font-family: Rock Salt;
+}
+.encounters {
+    background-color: #0C3C62;
+    grid-column: 1/3;
+    padding: 30px;
+    border-radius: 10px;
+}
+.encounters h6, p{
+    color: white;
+}
+.encounters h6 {
+    text-align: center;
+}
+.scorpion {
+    grid-column: 1/2;
+}
+.sheep {
+    grid-column: 2/3;
 }
