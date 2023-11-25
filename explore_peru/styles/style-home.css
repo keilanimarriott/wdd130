@@ -32,61 +32,63 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 250px 250px 250px;
 }
 #hero-img {
     grid-column: 1/4;
-    width: 1600px;
+    height: auto;
 }
 #cuzco {
-    max-width: 100%;
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: 0;
+    width: 100%;
+}
+#title-msg {
+    grid-column: 2/3;
+    text-align: center;
+    grid-row: 2/3;
+    color: #e5e5c4;
+    font-family: Hollywood One SC;
+    font-size: 3em;
 }
 #msg {
     text-align: center;
+    margin: 0 auto;
 }
 .home-page {
     display: grid;
     grid-template-columns: 800px 800px;
-    grid-template-rows: 800px 800px 800px;
+    grid-template-rows: 500px 500px 500px;
     border: 10px solid black;
 }
-.home-page section {
-    border: 10px solid black;
-}
-#cathedral img{
+.cathedral {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 800px;
     height: 100%;
 }
-#plaza-msg {
+.plaza {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-#farm img{
+.corire {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 800px;
     height: 100%;
 }
-#farm-msg {
+.farm {
     grid-column: 1/2;
     grid-row: 2/3;
 }
-#lost img{
+.machu {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 800px;
     height: 100%;
 }
-#lost-msg {
+.lost {
     grid-column: 2/3;
     grid-row: 3/4;
 }
-
-
 
 footer {
     background-color:#0C3C62 ;
