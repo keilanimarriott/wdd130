@@ -1,0 +1,29 @@
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+
+  header {
+    text-align: center;
+    padding: 32px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgray;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 98%;
+  }
+body {
+    background-color: aliceblue;
+    width: 1400px;
+}
