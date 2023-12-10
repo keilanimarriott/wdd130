@@ -310,6 +310,8 @@ footer .social img {
     background-color: #738290;
     border: 5px solid #bfbe5f;
 }
-#gallery p {
+#gallery h4, #gallery p {
     padding: 10px;
+    font-family: "Kanit", "Lato";
+    font-size: 20px;
 }
