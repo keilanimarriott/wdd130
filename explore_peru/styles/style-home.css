@@ -285,3 +285,31 @@ footer .social img {
     margin-top: 20px;
     border: 10px solid #bfbe5f;
 }
+
+/*Subpage Photo Gallery*/
+#top {
+    text-align: center;
+    background-color: #7f534b;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    border: 5px solid #bfbe5f;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #7f534b;
+}
+.photos {
+    width: 284px;
+    justify-self: center;
+}
+#gallery section {
+    background-color: #738290;
+    border: 5px solid #bfbe5f;
+}
+#gallery p {
+    padding: 10px;
+}
